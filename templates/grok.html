@@ -55,6 +55,16 @@
                 </div>
             
                 <style>
+
+                    .couple-names {
+                        font-size: 0.8em; /* Размер по умолчанию для h1 */
+                    }
+  
+                    .couple-names span {
+                    font-size: 0.9em; /* Уменьшаем размер текста внутри */
+                    display: inline-block; /* Для лучшего контроля */
+                    }
+
                     .wedding-date-gallery {
                         max-width: 1400px;
                         margin: 0 auto;
@@ -278,7 +288,7 @@
                 </script>
             </div>
             <br/>
-            <h1><span data-sm-text="GROOM" title="Александр">Александр</span><span>&amp;</span><span data-sm-text="BRIDE" title="Кристина">Кристина</span></h1>
+            <h1 class="couple-names"><span data-sm-text="GROOM" title="Александр">Александр</span><span>&amp;</span><span data-sm-text="BRIDE" title="Кристина">Кристина</span></h1>
         </div>
         <img src="static/templates/template12/img/hero-back.png" alt="">
     </section>
